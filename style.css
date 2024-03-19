@@ -1,0 +1,247 @@
+    /*login.html*/
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .character {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .character h2 {
+        margin-top: 0;
+    }
+
+    .character p {
+        margin-bottom: 5px;
+    }
+
+    /*login.html*/
+    .character img {
+        max-width: none;
+        height: 250px;
+        display: flex;
+        margin: 0px;
+    }
+
+    :root {
+        --main-color: #d3ad7f;
+        --black: #13131a;
+        --bg: #010103;
+        --border: 1rem solid rgba(255, 255, 255, .3);
+    }
+
+    hmtl {
+        font-size: 62.5%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background: var(--bg);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        border-bottom: var(--border);
+        z-index: 1000;
+    }
+
+    .header .logo img {
+        height: 6rem;
+    }
+
+    .header .navbar a {
+        margin: 0 1rem;
+        font-size: 1.6rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    .header .navbar a:hover {
+        color: var(--main-color);
+        border-bottom: .1rem solid var(--main-color);
+        padding-bottom: .5rem;
+
+    }
+
+    /*personagens.html*/
+
+    .body2 {
+        font-family: Arial, sans-serif;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+    }
+    /*formulario login*/
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    .error {
+        color: red;
+        margin-bottom: 10px;
+    }
+
+    /*image*/
+    .frame {
+        background-image: url(image1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        height: 600px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .continent h2 {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .continent h2 {
+        margin-top: 0;
+    }
+
+    .container-login {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        background-image: url(image1.jpg);
+        background-size: cover;
+        width: 530px;
+        height: 580px;
+        padding: 30px;
+        border-radius: 4%;
+        box-shadow: 3px 3px 1px 0px #fff;
+    }
+    .body3{
+        background-color: #000;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .form-control label {
+        display: inline-block;
+        margin-bottom: 5px;
+        color: #fff;
+    }
+
+    label {
+        font-family: sans-serif;
+    }
+   .login{
+      color: #fff;
+   }
+    .form-control input {
+        border: 2px solid #eaebf0;
+        border-radius: 5px;
+        outline: 0;
+        background-color: transparent;
+        display: block;
+        color: #d3ad7f;
+        font-size: 14px;
+
+        width: 100%;
+        padding: 15px;
+    }
+    #form {
+        padding: 0 40px 30px;
+      }
+    .form-control.img-success input {
+        border: 3px solid #4ECA64;
+    }
+
+    .form-control.img-error input {
+        border: 3px solid #DB5A5A;
+    }
+
+    .form-control.error i.img-error {
+        visibility: visible;
+    }
+
+    .form-control.success i.img-success {
+        visibility: visible;
+    }
+
+    .form-control.error small {
+        color: #DB5A5A;
+        visibility: visible;
+    }
+
+    .form-control i {
+        position: absolute;
+        top: 45px;
+        left: 27rem;
+        visibility: hidden;
+    }
+
+    .form-control small {
+        visibility: hidden;
+        position: absolute;
+        margin-top: 2px;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    button {
+        background-color: #6C63FF;
+        border-radius: 5px;
+        border: 3px solid #fff;
+        color: #fff;
+        width: 25%;
+        padding: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .caixa-center {
+        display: flex;
+        justify-content: center;
+    }
+  
